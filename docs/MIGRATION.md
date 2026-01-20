@@ -6,7 +6,7 @@ Your old commands still work! But now you don't need them.
 
 **Before 3.0:** Explicitly invoke 25+ commands like `/ralph "task"`, `/ultrawork "task"`
 
-**After 3.0:** Just work naturally - Claude auto-activates the right behaviors. One-time setup: `/omc-setup`
+**After 3.0:** Just work naturally - Claude auto-activates the right behaviors. One-time setup: just say "setup omc"
 
 ---
 
@@ -280,11 +280,7 @@ npm update -g oh-my-claudecode
 
 ### Step 2: Run One-Time Setup
 
-In Claude Code, run once:
-
-```
-/omc-setup
-```
+In Claude Code, just say "setup omc", "omc setup", or any natural language equivalent.
 
 This:
 - Downloads latest CLAUDE.md
@@ -407,8 +403,8 @@ Interview begins automatically
 
 If you're upgrading from 2.x:
 
-- [ ] Update plugin: `npm update -g oh-my-claudecode`
-- [ ] Run setup: `/omc-setup`
+- [ ] Install/Update plugin: `claude plugin install oh-my-claude-sisyphus`
+- [ ] Run setup: say "setup omc"
 - [ ] Test natural language: Say "don't stop until done" (should activate ralph)
 - [ ] Test keyword: Use `ralph` keyword in a request (should activate ralph-loop)
 - [ ] Test cancellation: Say "stop" (should cancel active operation)

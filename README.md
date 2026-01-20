@@ -23,16 +23,18 @@
 ## Get Started (30 seconds)
 
 **Step 1:** Install the plugin
+```bash
+claude plugin install oh-my-claude-sisyphus
 ```
-/plugin marketplace add Yeachan-Heo/oh-my-claudecode
+
+Or from within Claude Code:
+```
+/plugin oh-my-claude-sisyphus
 ```
 
 **Step 2:** Run setup
-```
-/omc-setup
-```
 
-That's it. Everything else is automatic.
+Just say "setup omc", "omc setup", or any natural language equivalent. That's it. Everything else is automatic.
 
 ---
 

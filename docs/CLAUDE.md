@@ -108,7 +108,7 @@ Skills auto-inject when trigger keywords are detected in your messages.
 
 ### First Time Setup
 
-Run `/omc-setup` once to configure. After that, everything is automatic.
+Just say "setup omc", "omc setup", or any natural language equivalent to configure. After that, everything is automatic.
 
 ---
 

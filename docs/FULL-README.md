@@ -83,9 +83,11 @@ Choose **ONE** installation method below. Do not mix methods.
 ### Option A: Claude Code Plugin (Recommended)
 
 ```bash
-# In Claude Code, run:
-/plugin marketplace add Yeachan-Heo/oh-my-claudecode
-/plugin install oh-my-claudecode
+# From terminal:
+claude plugin install oh-my-claude-sisyphus
+
+# Or from within Claude Code:
+/plugin oh-my-claude-sisyphus
 ```
 
 Uses Node.js hooks from the plugin directory. Integrates directly with Claude Code's plugin system.
